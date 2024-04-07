@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1- Airport-Management/1- Airport-Management.iml" filepath="$PROJECT_DIR$/1- Airport-Management/1- Airport-Management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2- Gestion-hospital/2- Gestion-hospital.iml" filepath="$PROJECT_DIR$/2- Gestion-hospital/2- Gestion-hospital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Simulacro JAVA.iml" filepath="$PROJECT_DIR$/.idea/Simulacro JAVA.iml" />
+    </modules>
+  </component>
+</project>
