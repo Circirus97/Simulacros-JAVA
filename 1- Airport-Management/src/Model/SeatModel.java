@@ -42,7 +42,7 @@ public class SeatModel implements SeatCRUD {
 
             //9. Cerramos el prepareStatement
             prepared.close();
-            JOptionPane.showMessageDialog(null, "Seat reserved correctly.");
+            JOptionPane.showMessageDialog(null, "Seat created correctly.");
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error reserving the chair" + e.getMessage());
@@ -78,24 +78,14 @@ public class SeatModel implements SeatCRUD {
             }
 
             // prepared.close();
-            JOptionPane.showMessageDialog(null, "Seats reserved correctly.");
+            JOptionPane.showMessageDialog(null, "Seats created correctly.");
 
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Error reserving the seats: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Error created the seats: " + e.getMessage());
         }
 
         //ConfigDB.closeConnection();
         return savedSeats;
-    }
-
-    @Override
-    public List<Seat> findAll() {
-        return null;
-    }
-
-    @Override
-    public List<Seat> findByFilter(String filter, String value) {
-        return null;
     }
 
     @Override

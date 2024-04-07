@@ -86,11 +86,11 @@ public class Reservation {
     @Override
     public String toString() {
         return "Reservation\n" +
-                "id:" + id +
-                ", id passenger:" + idPassenger +
-                ", id flight:" + idFlight +
-                ", reservationDate:" + reservationDate +
-                ", seat:" + seat +
+                "id: " + id +
+                ", id passenger: " + idPassenger +
+                ", id flight: " + idFlight +
+                ", Reservation Date: " + reservationDate +
+                ", seat: " + seat +
                 "\n--------------------------------------------\n";
     }
 }

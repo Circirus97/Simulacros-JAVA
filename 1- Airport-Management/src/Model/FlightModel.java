@@ -73,7 +73,7 @@ public class FlightModel implements FlightCRUD {
             JOptionPane.showMessageDialog(null, "Error adding Flight " + e.getMessage());
         }
 
-        ConfigDB.closeConnection();
+        //ConfigDB.closeConnection();
         return flight;
     }
 

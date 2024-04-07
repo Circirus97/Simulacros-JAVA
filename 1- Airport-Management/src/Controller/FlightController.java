@@ -80,7 +80,7 @@ public class FlightController {
             Object[] optionsAirplane = airplaneList.stream().map(Airplane::getModel).toArray();
             String selectedFilterAirplane = (String) JOptionPane.showInputDialog(null, "Select the airplane model\n", "Filter", JOptionPane.QUESTION_MESSAGE, null, optionsAirplane, optionsAirplane[0]);
 
-            Airplane airplane = airplaneList.stream().filter(medicoFilter -> medicoFilter.getModel().equals(selectedFilterAirplane)).findFirst().get();
+            Airplane airplane = airplaneList.stream().filter(airplaneFilter -> airplaneFilter.getModel().equals(selectedFilterAirplane)).findFirst().get();
 
             List<Flight> flightList = this.flightModel.findByFilter(selectedFilter, String.valueOf(airplane.getId()));
 

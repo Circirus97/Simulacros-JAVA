@@ -32,7 +32,7 @@ public class Main {
         do {
 
             option = JOptionPane.showInputDialog("""
-                    Welcome to SizañaFly select the desired option:
+                    Welcome to Back Flight select the desired option:
                                         
                     1. Airplane Manager
                     2. Flight Manager
@@ -45,7 +45,7 @@ public class Main {
                 case "1":
                     do {
                         option = JOptionPane.showInputDialog("""
-                                Welcome to SizañaFly!
+                                Welcome to Back Flight!
                                                                 
                                 Airplane Manager select the desired option:
                                                                 
@@ -78,7 +78,7 @@ public class Main {
                 case "2":
                     do {
                         option = JOptionPane.showInputDialog("""
-                                Welcome to SizañaFly!
+                                Welcome to Back Flight!
                                                                 
                                 Flight Manager select the desired option:
                                                                 
@@ -111,7 +111,7 @@ public class Main {
                 case "3":
                     do {
                         option = JOptionPane.showInputDialog("""
-                                Welcome to SizañaFly!
+                                Welcome to Back Flight!
                                                                 
                                 Passenger Administrator select the desired option:
                                                                 
@@ -144,7 +144,7 @@ public class Main {
                 case "4":
                     do {
                         option = JOptionPane.showInputDialog("""
-                                Welcome to SizañaFly!
+                                Welcome to Back Flight!
                                                                 
                                 Reservation Manager select the desired option:
                                                                 
@@ -160,16 +160,16 @@ public class Main {
                                 reservationController.create();
                                 break;
                             case "2":
-                                //reservationController.findByFilters();
+                                reservationController.findByFilters();
                                 break;
                             case "3":
-                                //reservationController.update();
+                                reservationController.update();
                                 break;
                             case "4":
-                                //reservationController.delete();
+                                reservationController.delete();
                                 break;
                             case "5":
-                                //reservationController.findAll();
+                                reservationController.findAll();
                                 break;
                         }
                     } while (!option.equals("6"));
